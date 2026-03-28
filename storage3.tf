@@ -6,7 +6,7 @@ resource "azurerm_storage_account" "storage_account" {
   account_replication_type = "GRS"
   shared_access_key_enabled = true
   public_network_access_enabled  = true
-  secret = welkom2022!
+  secret = FakeSecret01!
 
   tags = {
     environment = "staging"
